@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_item_price_items",
+  "info": {
+    "displayName": "priceItems"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "displayName": "price_card_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "item.price-card-item"
+    }
+  }
+}

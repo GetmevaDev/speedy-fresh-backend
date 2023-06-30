@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_textbanner_text_banner2s",
+  "info": {
+    "displayName": "TextBanner2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "richtext"
+    },
+    "TextBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    },
+    "Images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images"
+    }
+  }
+}

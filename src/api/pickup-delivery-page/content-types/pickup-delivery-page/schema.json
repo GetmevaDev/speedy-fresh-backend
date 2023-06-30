@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "pickup_delivery_pages",
+  "info": {
+    "singularName": "pickup-delivery-page",
+    "pluralName": "pickup-delivery-pages",
+    "displayName": "PickupDeliveryPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    },
+    "ImageWithText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-with-text.image-with-text"
+    },
+    "PickupDeliveryProcess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "washprocess.was-process"
+    },
+    "ImageWithTextBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-with-text.image-with-text"
+    }
+  }
+}

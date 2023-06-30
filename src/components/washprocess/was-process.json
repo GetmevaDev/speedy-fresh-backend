@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_washprocess_was_processes",
+  "info": {
+    "displayName": "washProcess",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.item"
+    }
+  }
+}

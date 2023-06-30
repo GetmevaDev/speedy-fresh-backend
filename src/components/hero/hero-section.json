@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_hero_hero_sections",
+  "info": {
+    "displayName": "hero-section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "btn_title": {
+      "type": "string"
+    },
+    "btn_url": {
+      "type": "string"
+    },
+    "call_btn_text": {
+      "type": "string"
+    },
+    "call_btn_url": {
+      "type": "string"
+    }
+  }
+}

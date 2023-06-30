@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_textbanner_text_banners",
+  "info": {
+    "displayName": "TextBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

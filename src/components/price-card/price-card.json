@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_price_card_price_cards",
+  "info": {
+    "displayName": "price_card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Price_card_item": {
+      "displayName": "price_card_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "price-card-item.price-card-item"
+    }
+  }
+}

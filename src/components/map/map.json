@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_map_maps",
+  "info": {
+    "displayName": "Map"
+  },
+  "options": {},
+  "attributes": {
+    "IframeForMap": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "mapItem": {
+      "displayName": "mapContactItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "map-contact-item.map-contact-item"
+    }
+  }
+}

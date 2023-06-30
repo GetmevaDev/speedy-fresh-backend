@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "wash_fold_pages",
+  "info": {
+    "singularName": "wash-fold-page",
+    "pluralName": "wash-fold-pages",
+    "displayName": "WashFoldPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    },
+    "ImageWithText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-with-text.image-with-text"
+    },
+    "ImageWithTextBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-with-text.image-with-text"
+    },
+    "TextBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    },
+    "WashProcess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "washprocess.was-process"
+    }
+  }
+}

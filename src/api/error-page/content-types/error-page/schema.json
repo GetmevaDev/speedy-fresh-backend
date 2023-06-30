@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "error_pages",
+  "info": {
+    "singularName": "error-page",
+    "pluralName": "error-pages",
+    "displayName": "ErrorPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "text"
+    },
+    "btn_title": {
+      "type": "string"
+    },
+    "btn_link": {
+      "type": "string"
+    }
+  }
+}

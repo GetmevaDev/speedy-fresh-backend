@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_nav_sub_links",
+  "info": {
+    "displayName": "sub_link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

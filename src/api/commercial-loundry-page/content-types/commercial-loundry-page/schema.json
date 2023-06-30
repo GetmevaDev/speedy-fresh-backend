@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "commercial_loundry_pages",
+  "info": {
+    "singularName": "commercial-loundry-page",
+    "pluralName": "commercial-loundry-pages",
+    "displayName": "CommercialLoundryPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    },
+    "ImageWithText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-with-text.image-with-text"
+    },
+    "TextBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    },
+    "ImageWithTextBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-with-text.image-with-text"
+    },
+    "TextBanner2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_price_card_item_price_card_items",
+  "info": {
+    "displayName": "price_card_item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

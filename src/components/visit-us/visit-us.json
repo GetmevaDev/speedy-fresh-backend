@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_visit_us_visituses",
+  "info": {
+    "displayName": "VisitUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "visitUsCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "visit-us.visit-us-card"
+    }
+  }
+}

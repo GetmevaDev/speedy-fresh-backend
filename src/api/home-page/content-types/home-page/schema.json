@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    },
+    "VisitUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "visit-us.visit-us"
+    },
+    "OurBenefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "our-benefits.our-benefits"
+    },
+    "ImageWithText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-with-text.image-with-text"
+    },
+    "Map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "map.map"
+    }
+  }
+}

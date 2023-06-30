@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_visit_us_visit_us_cards",
+  "info": {
+    "displayName": "VisitUsCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_nav_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "SubLink": {
+      "displayName": "sub_link",
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.sub-link"
+    }
+  }
+}

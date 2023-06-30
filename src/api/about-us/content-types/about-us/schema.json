@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    },
+    "TextBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    },
+    "ImageWithText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-with-text.image-with-text"
+    },
+    "TextBanner2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    }
+  }
+}

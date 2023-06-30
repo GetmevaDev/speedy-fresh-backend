@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_map_contact_item_map_contact_items",
+  "info": {
+    "displayName": "mapContactItem"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_table_item_table_items",
+  "info": {
+    "displayName": "TableItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "list__item": {
+      "type": "richtext"
+    }
+  }
+}

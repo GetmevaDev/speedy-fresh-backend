@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "sefl_service_pages",
+  "info": {
+    "singularName": "sefl-service-page",
+    "pluralName": "sefl-service-pages",
+    "displayName": "SelfServicePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    },
+    "ImageBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-banner.image-banner"
+    },
+    "EfficientBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "efficient-banner.efficient-banner"
+    },
+    "ImageTextBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-with-text.image-with-text"
+    },
+    "EfficientBanner2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "efficient-banner.efficient-banner"
+    },
+    "ImageBanner2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-banner.image-banner"
+    },
+    "title": {
+      "type": "string"
+    },
+    "card_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-with-text.image-with-text"
+    }
+  }
+}

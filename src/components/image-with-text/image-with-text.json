@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_image_with_text_image_with_texts",
+  "info": {
+    "displayName": "ImageWithText"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "btn_title": {
+      "type": "string"
+    },
+    "btn_link": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

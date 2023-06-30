@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_our_benefits_our_benefits",
+  "info": {
+    "displayName": "ourBenefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "ourBenefitsCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "visit-us.visit-us-card"
+    },
+    "Background_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
