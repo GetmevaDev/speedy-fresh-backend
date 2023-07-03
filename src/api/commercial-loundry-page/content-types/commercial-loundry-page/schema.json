@@ -36,6 +36,11 @@
       "type": "component",
       "repeatable": false,
       "component": "textbanner.text-banner"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

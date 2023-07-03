@@ -84,6 +84,11 @@
       "type": "component",
       "repeatable": false,
       "component": "price-card.price-card"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

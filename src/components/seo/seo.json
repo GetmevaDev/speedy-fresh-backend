@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "SEO"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "text"
+    },
+    "twitterUrl": {
+      "type": "string"
+    },
+    "twitterCard": {
+      "type": "text"
+    },
+    "twitterDomain": {
+      "type": "string"
+    },
+    "twitterTitle": {
+      "type": "text"
+    },
+    "twitterImage": {
+      "type": "text"
+    }
+  }
+}

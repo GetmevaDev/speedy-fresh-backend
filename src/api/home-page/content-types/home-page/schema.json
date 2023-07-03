@@ -36,6 +36,11 @@
       "type": "component",
       "repeatable": false,
       "component": "map.map"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }

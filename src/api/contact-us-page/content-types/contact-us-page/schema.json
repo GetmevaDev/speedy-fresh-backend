@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-us-page",
     "pluralName": "contact-us-pages",
-    "displayName": "ContactUsPage"
+    "displayName": "ContactUsPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,11 @@
       "type": "component",
       "repeatable": false,
       "component": "map.map"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
