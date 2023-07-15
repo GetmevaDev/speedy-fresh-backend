@@ -73,6 +73,11 @@
       "type": "component",
       "repeatable": false,
       "component": "textbanner.text-banner"
+    },
+    "PriceItems4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.price-items"
     }
   }
 }
