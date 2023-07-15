@@ -1,7 +1,8 @@
 {
   "collectionName": "components_textbanner_text_banner2s",
   "info": {
-    "displayName": "TextBanner2"
+    "displayName": "TextBanner2",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,12 +16,6 @@
       "type": "component",
       "repeatable": false,
       "component": "textbanner.text-banner"
-    },
-    "Images": {
-      "displayName": "images",
-      "type": "component",
-      "repeatable": true,
-      "component": "images.images"
     }
   }
 }

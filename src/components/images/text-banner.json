@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_images_text_banners",
+  "info": {
+    "displayName": "textBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images"
+    }
+  }
+}

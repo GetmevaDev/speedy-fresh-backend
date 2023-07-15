@@ -1,25 +1,27 @@
 {
   "collectionName": "components_item_price_card_items",
   "info": {
-    "displayName": "price_card_item"
+    "displayName": "price_card_item",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "btn_title": {
+    "price": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

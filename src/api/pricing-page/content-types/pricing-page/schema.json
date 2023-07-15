@@ -22,63 +22,21 @@
       "repeatable": false,
       "component": "image-with-text.image-with-text"
     },
-    "PricingCards": {
-      "displayName": "PricingCard",
-      "type": "component",
-      "repeatable": false,
-      "component": "item.pricing-card"
-    },
-    "ImageWithTextBanner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "image-with-text.image-with-text"
-    },
-    "TextBanner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "textbanner.text-banner"
-    },
     "PriceItems": {
       "displayName": "priceItems",
       "type": "component",
       "repeatable": false,
       "component": "item.price-items"
     },
-    "TextBanner2": {
-      "type": "component",
-      "repeatable": false,
-      "component": "textbanner.text-banner"
-    },
     "PriceItems2": {
       "type": "component",
       "repeatable": false,
       "component": "item.price-items"
     },
-    "TextBanner3": {
-      "type": "component",
-      "repeatable": false,
-      "component": "textbanner.text-banner"
-    },
     "PriceItems3": {
       "type": "component",
       "repeatable": false,
       "component": "item.price-items"
-    },
-    "text_banner": {
-      "displayName": "TextBanner2",
-      "type": "component",
-      "repeatable": false,
-      "component": "textbanner.text-banner2"
-    },
-    "text_banner2": {
-      "type": "component",
-      "repeatable": false,
-      "component": "textbanner.text-banner"
-    },
-    "table": {
-      "type": "component",
-      "repeatable": false,
-      "component": "table.table"
     },
     "Pirce_card": {
       "type": "component",
@@ -89,6 +47,32 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "banner_img": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-banner.image-banner"
+    },
+    "banner_text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    },
+    "banner_text2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
+    },
+    "text_banner_with_image": {
+      "displayName": "textBanner",
+      "type": "component",
+      "repeatable": false,
+      "component": "images.text-banner"
+    },
+    "text_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "textbanner.text-banner"
     }
   }
 }
