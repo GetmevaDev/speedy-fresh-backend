@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blog_blog_cards",
+  "info": {
+    "displayName": "Blog-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "blog_body": {
+      "type": "richtext"
+    }
+  }
+}
