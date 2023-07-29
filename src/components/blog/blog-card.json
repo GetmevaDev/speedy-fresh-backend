@@ -22,9 +22,6 @@
     },
     "blog_body": {
       "type": "richtext"
-    },
-    "slug": {
-      "type": "string"
     }
   }
 }
