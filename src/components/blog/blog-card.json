@@ -1,25 +1,30 @@
 {
   "collectionName": "components_blog_blog_cards",
   "info": {
-    "displayName": "Blog-card"
+    "displayName": "Blog-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
       "type": "string"
     },
     "blog_body": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
