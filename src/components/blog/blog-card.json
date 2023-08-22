@@ -22,6 +22,11 @@
     },
     "blog_body": {
       "type": "richtext"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
